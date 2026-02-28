@@ -18,7 +18,6 @@ chai.use((_chai, utilsLib) => {
           result = result.toString(16)
         } else {
           result = result.toString(10)
-          console(result)
         }
       }
       else if (typeof val === 'number') {
